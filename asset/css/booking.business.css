@@ -15,6 +15,16 @@ html {
     height: 100vh;
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 body {
     height: auto;
     /* min-height: 200vh; */

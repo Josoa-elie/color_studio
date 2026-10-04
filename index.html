@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColorStudio - Photographe Professionnel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./asset/css/home.css">
@@ -17,7 +16,7 @@
             <a href="index.html" class="logo"><img src="./asset/images/logo.jpg" alt="Logo"></a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="booking.html">Booking</a></li>
+                <li><a href="mariage.html">Mariage</a></li>
                 <li><a href="workshops.html">Workshops</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="studio.html">Studio</a></li>
@@ -41,9 +40,9 @@
         <div class="hero-cards">
             <div class="card" data-aos="fade-up" data-aos-delay="100">
                 <div class="card-icon"><i class="fas fa-calendar-check"></i></div>
-                <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?w=600" alt="Booking" class="card-image">
+                <img src="asset/images/bridge.png" alt="mariage" class="card-image">
                 <div class="card-content">
-                    <h3>Réserver</h3>
+                    <h3>Mariage</h3>
                 </div>
             </div>
 
@@ -143,7 +142,7 @@
         // Card click navigation
         document.querySelectorAll('.card').forEach((card, index) => {
             card.addEventListener('click', () => {
-                const pages = ['booking.html', 'workshops.html', 'portfolio.html', 'studio.html'];
+                const pages = ['mariage.html', 'workshops.html', 'portfolio.html', 'studio.html'];
                 window.location.href = pages[index];
             });
         });

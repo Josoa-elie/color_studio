@@ -15,6 +15,16 @@
     --gris-clair: #F5F5F5;
 }
 
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--bleu-nuit);
